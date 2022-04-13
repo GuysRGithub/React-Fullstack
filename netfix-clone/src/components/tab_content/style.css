@@ -1,0 +1,28 @@
+/* div {
+    background: var(--main-deep-dark);
+    
+} */
+
+.container {
+    margin-top: 6rem;
+}
+
+.container img {
+    width: 32rem;
+    height: auto;
+    position: relative;
+}
+
+.container .tab-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 2.5rem;
+}
+
+.container .tab-content .tab-content-left {
+    height: 100%;
+}

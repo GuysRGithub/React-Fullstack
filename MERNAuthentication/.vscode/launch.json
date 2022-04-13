@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "MERNAuthentication:controllers/auth_controller.googleLoginController (nodejs12.x)",
+            "invokeTarget": {
+                "target": "code",
+                "projectRoot": "server",
+                "lambdaHandler": "controllers/auth_controller.googleLoginController"
+            },
+            "lambda": {
+                "runtime": "nodejs12.x",
+                "payload": {},
+                "environmentVariables": {}
+            }
+        }
+    ]
+}

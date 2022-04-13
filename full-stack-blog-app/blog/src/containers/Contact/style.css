@@ -1,0 +1,202 @@
+.contact {
+    display: relative;
+}
+
+.contact .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .content .form {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-self: end;
+}
+
+.contact .title {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.contact .title h1 {
+    letter-spacing: 6px;
+}
+
+.contact .title span {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.form .input input {
+    display: block;
+    align-self: start;
+    box-sizing: border-box;
+    z-index: 18;
+    font-family: 'Open Sans';
+    margin-left: 32px;
+    margin-top: 12px;
+    height: 48px;
+    width: 400px;
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 0px 20px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+    outline: none !important;
+}
+
+.form .input textarea {
+    display: block;
+    align-self: start;
+    box-sizing: border-box;
+    z-index: 18;
+    margin-left: 32px;
+    margin-top: 12px;
+    height: 100px;
+    width: 400px;
+    border: 1px solid rgb(227, 227, 227);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    padding: 20px 20px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+    outline: none !important;
+    resize: none;
+}
+
+.form .button button {
+    display: block;
+    margin-left: 32px;
+    margin-top: 32px;
+    font-size: 32px;
+    box-sizing: border-box;
+    z-index: 15;
+    height: 56px;
+    width: 400px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    outline: none !important;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    border-radius: 30px;
+    transition: background 200ms ease 0s;
+}
+
+.contact .content .image {
+    width: 48%;
+}
+
+.contact .more h1 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact .more .pay {
+    margin-top: 60px;
+    display: flex;
+    height: 550px;
+    width: 1200px;
+    /* justify-content: space-between; */
+}
+
+.contact .more .pay .form {
+    box-sizing: border-box;
+    z-index: 7;
+    height: 454px;
+    width: 488px;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(84, 89, 94, 0.4) 0px 24px 34px 0px;
+    transition: background 200ms ease-in 0s, box-shadow 200ms ease-in 0s;
+}
+
+.contact .more .pay .form .name {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.contact .more .pay .form .description {
+    color: rgb(0, 82, 127);
+    width: 300px;
+    margin: 30px auto;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+.contact .more .pay .form .text {
+    text-align: left;
+    width: 280px;
+    margin: 20px auto;
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+.contact .more .pay .form .text li {
+    margin: 8px;
+    font-weight: 100;
+}
+
+.contact .more .pay .form .button button {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 5;
+    height: 50px;
+    width: 175px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+    border: none;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    border-radius: 30px;
+    transition: color 200ms ease-in 0s, background 200ms ease-in 0s;
+    box-shadow: none;
+}
+
+.contact .more .pay .form .button button:hover {
+    box-shadow: rgba(84, 89, 94, 0.1) 2px 8px 6px 0px, -6px -2px 6px rgba(84, 89, 95, .1);
+}
+
+.contact .more .pay .right {
+    box-sizing: border-box;
+    z-index: 6;
+    height: 454px;
+    width: 486px;
+    margin-top: 80px;
+    margin-left: -100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 80, 130, 0.15);
+    border-radius: 8px;
+    box-shadow: rgb(245, 245, 245) 1px 1px 8px 0px;
+    transition: background 200ms ease-in 0s, box-shadow 200ms ease-in 0s;
+    cursor: pointer;
+    background: none transparent;
+}
+.contact .more .pay .right .description {
+    color: rgb(253, 108, 174);
+}
+
+.contact .more .pay .right .button button {
+    background: -webkit-linear-gradient(left, rgb(253, 108, 174) 20%, rgb(251, 140, 110) 100%);
+}

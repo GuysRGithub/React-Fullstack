@@ -1,0 +1,79 @@
+.tab-icon-door {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    fill: var(--main-grey);
+}
+
+.tab-icon-deivce {
+    width: 9.25rem;
+    height: 9.25rem;
+    fill: var(--main-grey);
+}
+
+.tab-icon-price {
+    width: 4.375rem;
+    height: 4.375rem;
+    fill: var(--main-grey);
+
+}
+
+.tabs {
+    padding-top: 1rem;
+}
+
+.tab-nav-list {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    list-style: none;
+    color: var(--main-grey);
+    margin: 0 12%;
+}
+
+ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+ul li:hover svg path {
+    fill: #fff;
+}
+
+.active {
+    border-bottom: 4px solid var(--main-red);
+    color: #fff;
+
+}
+
+.active svg path {
+    fill: #fff;
+
+}
+
+/* Tab content */
+
+
+@media (max-width: 900px) {
+
+    .tab-icon-door {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .tab-icon-deivce {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .tab-icon-price {
+        width: 4.375rem;
+        height: 4.375rem;
+    }
+
+    .mdScreen {
+        display: none;
+    }
+}

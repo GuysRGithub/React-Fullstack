@@ -1,0 +1,137 @@
+body {
+    background: #e3dfdb;
+}
+
+.about {
+    max-width: 100%;
+}
+
+.about .welcome h1 {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+.about .welcome h2 {
+    font-weight: 200;
+    text-align: center;
+}
+
+.about .image img {
+    width: 100%;
+}
+
+.about .introduce {
+    background: #ffffff;
+    color: #383737;
+    padding: 40px;
+    margin: 40px 0;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.about .aboutOur {
+    display: flex;
+}
+
+.about .aboutOur .about {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.about .aboutOur .about .title {
+    background-color: #fff;
+    position: absolute;
+    padding: 15px 25px;
+    top: 50%;
+    left: 50%;
+    white-space: nowrap;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.about .aboutOur .about .title span {
+    letter-spacing: 6px;
+    font-weight: 600;
+    font-size: 26px;
+    /* text-decoration: underline; */
+    border-bottom: 1px solid;
+}
+
+.about .aboutOur .left {
+    margin-right: 10px;
+}
+
+.about .aboutOur .right {
+    margin-left: 10px;
+}
+
+.about .aboutOur .about img {
+    width: 100%;
+    transition: 1s;
+}
+
+.about .aboutOur .about:hover img {
+    filter: grayscale();
+}
+
+.about .more {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about .more .address {
+    width: 40%;
+    background: #ffffff;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about .more .address .content {
+    margin: 60px 0;
+    text-align: center;
+    height: 80%;
+}
+
+.about .more .address .content span {
+    display: block;
+    margin: 20px;
+}
+
+.about .more .address .bottom {
+    text-align: left;
+    margin-top: -120px;
+    margin-left: 30px;
+    height: 20%;
+}
+
+.about .more .address .bottom .social ul {
+    margin: 0;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+.about .more .address .bottom .social ul li {
+    display: inline-block;
+    margin: 10px 10px 10px 0;
+}
+
+.about .more .imageAddress {
+    width: auto;
+    margin-left: 10px;
+}
+
+.about .more .imageAddress img {
+    width: 100%;
+}

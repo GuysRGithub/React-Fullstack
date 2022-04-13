@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastpost</title>
+  <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
+  <!-- We'll transform this input into a pond
+  <input type="file" class="filepond"> -->
+
+  <!-- Load FilePond library -->
+  <script defer src="https://unpkg.com/filepond-plugin-image-preview/dist/filepond-plugin-image-preview.js"></script>
+  <script defer src="https://unpkg.com/filepond-plugin-file-encode/dist/filepond-plugin-file-encode.js"></script>
+  <script defer src="https://unpkg.com/filepond-plugin-image-resize/dist/filepond-plugin-image-resize.js"></script>
+  <script defer src="https://unpkg.com/filepond/dist/filepond.js"></script>
+  <script defer src="/javascripts/fileUpload.js"></script>
+  <link rel="stylesheet" href="/stylesheet/main.css">
+
+</head>
+
+<body>
+  <%- include('../partials/header.ejs') %>
+  <div class="container">
+    <section class="section">
+      <%- body %>
+    </section>
+  </div>
+</body>
+
+</html>

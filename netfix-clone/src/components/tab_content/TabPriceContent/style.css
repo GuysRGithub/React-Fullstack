@@ -1,0 +1,55 @@
+.tab-price-content {
+    margin: 0 12%;
+}
+
+.tab-price-top-content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 3rem 0 0;
+
+}
+
+.tab-price-top-content p {
+    grid-column: 3 / 9;
+}
+
+.tab-price-top-content .btn {
+    grid-column: 10 / 12;
+    margin-left: 2rem;
+}
+
+.tab-price-bottom-content {
+    margin: 2rem auto;
+}
+.tab-price-bottom-content table {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+}
+
+.tab-price-bottom-content table thead th{
+    text-transform: uppercase;
+    padding: 0.8rem;
+}
+
+.tab-price-bottom-content table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    padding: 0.8rem 1.2rem;
+
+}
+
+.tab-price-bottom-content table tbody tr td {
+    background-color: rgba(153, 153, 153, 0.582);
+    padding: 0.8rem;
+    text-align: center;
+} 
+
+.tab-price-bottom-content table tbody tr td:first-child {
+    text-align: left;
+}
+
+.tab-price-bottom-content table tbody tr:nth-child(even) td{
+    background-color: rgba(0, 0, 0, 0);
+}

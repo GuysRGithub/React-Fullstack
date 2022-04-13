@@ -1,0 +1,7 @@
+<h2 class="page-header">Recently Added</h2>
+<div>
+    <% Array.from(books).forEach(book => { %>
+        <img src="<%= book.coverImagePath %> " alt="bookCover" height="150" width="100">
+        <div><%= book.author.name %> </div>
+        <% }) %>
+</div>

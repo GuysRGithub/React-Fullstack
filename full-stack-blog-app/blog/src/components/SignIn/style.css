@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.formSignIn {
+    width: 420px;
+    padding: 40px;
+    background: #191919;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.formSignIn h1 {
+    letter-spacing: 8px;
+    color: rgb(226, 213, 213);
+}
+
+.formSignIn input:-webkit-autofill,
+.formSignIn input:-webkit-autofill:hover,
+.formSignIn input:-webkit-autofill:focus,
+.formSignIn input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #191919 inset !important;
+    box-shadow: 0 0 0 30px #191919 inset !important;
+}
+
+.formSignIn input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(226, 217, 217) !important;
+}
+
+.formSignIn input[type="text"],
+.formSignIn input[type="password"],
+.formSignIn button {
+    justify-content: center;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    border-radius: 24px;
+    outline: none;
+    width: 240px;
+    color: rgb(235, 222, 222);
+    transition: .25s;
+}
+
+.formSignIn input[type="text"]:focus,
+.formSignIn input[type="password"]:focus {
+    width: 320px;
+    border-color: #2ecc71;
+    background: none;
+}
+
+.formSignIn .signInSubmit-btn {
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: 5;
+    height: 32px;
+    width: 68px;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    cursor: pointer;
+    background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+    border: none !important;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    border-radius: 24px;
+    transition: color 200ms ease-in 0s, background 200ms ease-in 0s;
+    box-shadow: none;
+    outline: none !important;
+    text-transform: uppercase;
+}

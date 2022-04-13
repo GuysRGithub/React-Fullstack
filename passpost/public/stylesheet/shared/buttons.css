@@ -1,0 +1,54 @@
+:root {
+    --color-btn-primary-background: #09b1e4;
+    --color-btn-primary-background-dark: hsl(var(--color-base-hue), 100%, 73%);
+    --color-btn-primary-text: hsl(var(--color-base-hue), 100%, 60%);
+    --color-btn-primary-text-dark: hsl(var(--color-base-hue), 100%, 10%);
+    --color-btn-border: black;
+    --color-danger-hue-offset: 180;
+    --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
+    --color-btn-danger-background: #d6ac22;
+    --color-btn-danger-background-dark: hsl(var(--color-base-hue), 100%, 83%);
+}
+
+.btn {
+    border: .5px solid var(--color-btn-border);
+    border-radius: .5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Gotham Rounded';
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-row > * {
+    margin-left: 1rem;
+}
+
+.btn-row > *:first-child {
+    margin-left: 0;
+}
+
+.btn-primary:hover {
+    color: var(--color-btn-primary-text-dark);
+    background-color: var(--color-btn-primary-background-dark);
+}
+
+
+.btn-primary {
+    color: var(--color-btn-primary-text);
+    background: var(--color-btn-primary-background);
+}
+
+.btn-danger {
+    background-color: var(--color-btn-danger-background);
+}
+
+.btn-danger:hover {
+    background-color: var(--color-btn-danger-background-dark);
+}

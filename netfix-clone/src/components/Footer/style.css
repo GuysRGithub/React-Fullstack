@@ -1,0 +1,71 @@
+.footer {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    color: #999999;
+}
+.footer .footer-columns {
+    padding-top: 10rem;
+    width: 72%;
+    margin: 1rem auto 0;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 2.5;
+
+}
+
+.footer ul li a {
+    color: #999999;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer p {
+    margin-left: 14%;
+    font-size: 20px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid #333;
+    width: 8rem;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 6px;
+    margin: 2rem 0 0rem;
+    cursor: pointer;
+}
+
+.lang-toggle {
+    margin-left: 14%;
+    position: relative;
+    margin-top: 0rem;
+}
+
+.lang-toggle ul li{
+    width: 8.125rem;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 6px;
+
+}
+
+.lang-toggle ul li:hover {
+    background: rgb(16, 88, 182);
+}

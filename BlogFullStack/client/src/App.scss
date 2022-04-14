@@ -1,0 +1,142 @@
+@import "assets/css/fonts";
+@import "assets/css/function";
+
+@import "assets/css/editor";
+@import "assets/css/blog";
+@import "assets/css/index";
+@import "assets/css/footer";
+@import "assets/css/post_card";
+@import "assets/css/dropdown";
+@import "assets/css/blog_hom";
+
+
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/*  profile  */
+@import "assets/css/profile";
+
+/* App style function */
+:root {
+  --primaryColor: #98713c;
+  --primaryDarkcolor: #222624;
+  --pirmaryBorderDarkColor: #4b5655;
+  --pirmaryBorderLightColor: #5d5f5f;
+  --primaryHoverColor: #05babe;
+  --primaryColorFade: #e3dbdba8;
+  --primaryInputDarkBgColor: rgba(24, 26, 27, 0.75);
+  --primaryColorGrayFade: #a2a2a2;
+  --primaryColorHighlight: #f7d5d5;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --darkGrey: #cfcfcf;
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 3px;
+  --smallSpacing: 2px;
+  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* !App style function */
+
+/* Widget Function */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  //color: #c7a84e;
+  text-decoration: none !important;
+  border: none;
+}
+
+
+input.error {
+  border-color: red;
+}
+
+/* !Widget Function */
+
+/* Common Class */
+.app {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-feedback {
+  color: red;
+  height: 5px;
+  margin-top: 0;
+}
+
+.flex {
+  display: flex !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.ck-editor__editable {
+  min-height: 24rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.dark-theme-editor {
+  .ck-editor__editable,
+  .ck-sticky-panel__content,
+  .ck-toolbar,
+  .ck-toolbar_grouping,
+  .ck-list__item,
+  .ck-reset .ck-dropdown__panel,
+  .ck-dropdown__panel_ne,
+  .ck-dropdown__panel-visible {
+    background-color: var(--primaryDarkcolor) !important;
+  }
+
+  .ck-editor__editable,
+  .ck-toolbar,
+  .my-border {
+    border: 2px solid #4b4e4c !important;
+  }
+
+  .my-border-b {
+    border-bottom: 2px solid #4b4e4c !important;
+  }
+
+  .ck-toolbar,
+  {
+    border-bottom-width: 0 !important;
+  }
+
+  input {
+    background-color: #1c1d1d !important;
+  }
+
+  .ck.ck-button:not(.ck-disabled):hover, a.ck.ck-button:not(.ck-disabled):hover {
+    background: #383b3a !important;
+  }
+}
+
+.custom-label {
+  label, .ant-form-item-required {
+    color: white;
+    font-size: 1.5rem;
+    height: 100%;
+    margin: 0 !important;
+    align-self: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+}
